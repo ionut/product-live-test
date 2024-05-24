@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Verdana, Geneva, sans-serif;
+  }
+}
+
+.background-main {
+  background-position: 100% 0, 0 0, 0 0;
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-size: auto 100%, auto, cover;
+  background-attachment: scroll, scroll, fixed;
+}
+
+.background-woman {
+  background-position: 0 0, 50% 100%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.background-woman-big {
+  background-position: -10% 100%;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  width: 100%;
+  position: static;
+}
+
+.background-grass {
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+}
+
+.background-moodbooster {
+  background-position: 0 0, 0 0, -6% 100%;
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: cover, auto, contain;
+}
+
+.background-leaf {
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.background-doctor {
+  background-position: 7% 100%, 0 0, 0 0;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: 500px, cover, auto;
+}
+
+.background-checkout {
+  background-position: 0 0, 100% 0, 0 0;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: cover, auto 100%, auto;
+  background-attachment: fixed, scroll, scroll;
+}
+/* embla carousel */
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
